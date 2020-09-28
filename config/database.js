@@ -1,3 +1,4 @@
+// Production database
 module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {
@@ -5,6 +6,7 @@ module.exports = ({ env }) => ({
       connector: "mongoose",
       settings: {
         uri: env("DATABASE_URI"),
+        database: "blog-db",
       },
       options: {
         ssl: true,
@@ -12,6 +14,8 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
+// Dev Database
 // module.exports = ({ env }) => ({
 //   defaultConnection: 'default',
 //   connections: {

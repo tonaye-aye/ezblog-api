@@ -5,7 +5,7 @@
     "secretAccessKey": "gcdzMFKV1xdr07DMGTpbObR67iXsATqEGJCUqUdw",
     "region": "us-west-2",
     "params": {
-      "Bucket": "ezblogstorage"
+      "Bucket": "tummystuff-db"
     }
   }
 }
